@@ -13,11 +13,11 @@ body {
 /* Section 1: Green background with centered text box */
 .section-one {
     background-color: #C7DB94;
-    min-height: 100vh;
+    min-height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25vh 0; /* 25% (1/4) space at top and bottom */
+    padding: 3.75vh 0; /* 25% of section height (1/4 space at top and bottom) */
 }
 
 .text-box {
@@ -42,7 +42,7 @@ body {
 
 /* Section 2: Default background with grid of clickable boxes */
 .section-two {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@ body {
 
 /* Section 3: Centered "about me" text */
 .section-three {
-    min-height: 100vh;
+    min-height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
