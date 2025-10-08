@@ -52,10 +52,15 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+    grid-template-columns: repeat(2, 250px);
     gap: 30px;
     max-width: 1200px;
     justify-content: center;
+}
+
+.grid-item:nth-child(5) {
+    grid-column: 1 / -1;
+    justify-self: center;
 }
 
 .grid-item {
